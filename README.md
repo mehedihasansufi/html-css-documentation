@@ -35,18 +35,49 @@
 
   <!-- with label -->
 
-    <label for="id from the input id">before text input box<label>
-    <input type="text" id="username" name="must be same of the id"/>
+  <label for="id from the input id">before text input box<label>
+  <input type="text" id="username" name="must be same of the id"/>
+
+<!-- patter  -->
+  <label for="websiste">Website : </label>
+  <input type="url" id="website" name="website" pattern="http?://.+" />
+
+<!-- accept attribute in the image tag -->
+  <br />
+  <label for="image">upload image</label>
+  <input type="file" id="image" name="image" accept="image/*" />
+
+ <!-- min and max  -->
+  <label for="age">age:</label>
+  <input type="number" id="age" name="age" min="18" max="19" required />
 </form>
 ```
 
-### button 
+### form attribute
+
+type
+
+- button (must use value)
+- date , file , tel , url , week , time , Search , hidden
+
+## Select Tag
+
+```html
+<!-- value attribute (for javascript) -->
+<label for="gender">Gender : </label>
+<select name="gender" id="gender">
+  <option>Select your gender</option>
+  <option value="male">male</option>
+  <option value="female">female</option>
+</select>
+```
+
+### button
 
 ```html
 <form>
-
-    <button type="submit"></button>
-    <button type="reset">for clear the data from the input box</button>
+  <button type="submit"></button>
+  <button type="reset">for clear the data from the input box</button>
 </form>
 ```
 
@@ -76,6 +107,30 @@
     </tr>
   </tbody>
 </table>
+
+<ul>
+  <li>rowspan="2" (use for vertically)</li>
+  <li>colspan="2" (horizontally)</li>
+</ul>
+```
+
+### progress bar
+
+```html
+
+
+```
+
+### Multimedia
+
+```html
+<video height="" width="" controls>
+  <source src="where is video" type="extension like video/mp4" />
+  your video don't support here
+</video>
+
+<!-- load another website in your own site use  -->
+ - iframe tag
 ```
 
 <!-- Text formating part -->
@@ -171,3 +226,32 @@ For Phone number & Email attribute
 ```html
 <hr />
 ```
+
+# Intermediate Level
+
+## Meta tag
+
+### Search Engine Optimization
+
+```html
+<!-- meta:edge -->
+<!-- Internet explorer older version -->
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+<!-- meta:kw -->
+
+<!-- for user Search -->
+<meta name="keywords" content="portfolio,html,css" />
+
+<!-- description -->
+<meta name="description" content="there is a description here" />
+
+<!-- developer name -->
+<meta name="author" content="Mehedi hasan" />
+```
+
+### website
+
+- font awesome (icons)
+- font awesome cdn -- use in the head tag
+- google front --- in the head tag
