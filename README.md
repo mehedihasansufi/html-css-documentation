@@ -118,7 +118,6 @@ type
 
 ```html
 
-
 ```
 
 ### Multimedia
@@ -130,7 +129,7 @@ type
 </video>
 
 <!-- load another website in your own site use  -->
- - iframe tag
+- iframe tag
 ```
 
 <!-- Text formating part -->
@@ -248,6 +247,22 @@ For Phone number & Email attribute
 
 <!-- developer name -->
 <meta name="author" content="Mehedi hasan" />
+```
+
+## Some Extra Tag
+
+```html
+<!-- Bi-Directional Override. -->
+<bdo dir="rtl">This text will be displayed from right to left.</bdo>
+
+<!--  abbreviation  in display only Html when we hover in the display we will show the title text part-->
+<abbr title="HyperText Markup Language">HTML</abbr>
+
+
+<details>
+  test me
+  <summary>Testing</summary>
+</details>
 ```
 
 ### website
