@@ -38,7 +38,7 @@
   <label for="id from the input id">before text input box<label>
   <input type="text" id="username" name="must be same of the id"/>
 
-<!-- patter  -->
+<!-- pattern  -->
   <label for="websiste">Website : </label>
   <input type="url" id="website" name="website" pattern="http?://.+" />
 
@@ -114,11 +114,7 @@ type
 </ul>
 ```
 
-### progress bar
 
-```html
-
-```
 
 ### Multimedia
 
@@ -258,15 +254,76 @@ For Phone number & Email attribute
 <!--  abbreviation  in display only Html when we hover in the display we will show the title text part-->
 <abbr title="HyperText Markup Language">HTML</abbr>
 
-
 <details>
   test me
   <summary>Testing</summary>
 </details>
 ```
 
+# Advanced Lebel
+
+## More Advanced Form
+
+```html
+<!-- color property -->
+
+<label for="favouriteColor">Favourite Color:</label>
+<input type="color" name="favouriteColor" id="favouriteColor" value="#ff0000" />
+
+<!-- range property -->
+
+<label for="volume">Volume : </label>
+<input type="range" name="volume" id="volume" min="0" max="10" />
+
+<!-- data list -->
+
+<label for="programming">Favourite Language : </label>
+<input list="datal" id="programming" name="programming" />
+<datalist id="datal">
+  <option value="python"></option>
+  <option value="c++"></option>
+</datalist>
+
+<!-- number of item grouping that gives a box border -->
+<fieldset>
+  <!-- legend tag gives a caption for the all groupping box -->
+  <legend>here write a caption</legend>
+</fieldset>
+```
+
+### progress bar
+
+```html
+<label for="html">Html : </label>
+<progress id="html" value="90" max="100">90</progress>
+```
+
+### Meter Tag
+
+```html
+<label for="expericnce">Expericnce : </label>
+<meter id="expericnce" min="0" max="10" value="5">5 Years</meter>
+```
+
+## Accessibility
+
+- Use semantic Tag
+- Use lang Attribute
+- use heading in order
+- alt Attribute use in the img tag
+- Contrast ratio (4.5:1) (backgroud and foreground color combination)
+- Use meaningful text for link
+- level (for) + input (id)
+- Use meta tag (keyword,description,author)
+
+
 ### website
 
 - font awesome (icons)
 - font awesome cdn -- use in the head tag
 - google front --- in the head tag
+- for symbol --- sysbol.cc, w3school html symbol,copychar.cc
+- matarial icon --  font's google.com icon
+- emoji ---emojipedia
+- color --colorhunt,colormind
+-- image --unsplash.com
