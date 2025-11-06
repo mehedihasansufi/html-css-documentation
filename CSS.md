@@ -29,6 +29,20 @@
 - 1 rem=16px
 
 
+# Intermediate Part
+
 ## Background Property
 
 - box-shadow: 0 4px 8px rgba(0,0,0,.2)
+
+
+### Backgoround Image
+- background-image:url()
+- background-position
+- background-repet
+- background-size
+
+### position
+- position:fixed (if use position == fixed then you have to use top,right,left,bottom one of property)
+
+
