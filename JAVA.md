@@ -110,3 +110,92 @@ public class method {
 ## Custom class
 
 - one java file have only one public class
+
+
+
+
+# Multithreading in Java
+
+## Multi Processing
+- in operating System at a time i using chrome and vs code that is 
+ multiprocess
+
+## Within  a Process Multitasking  that called ***Multithread***
+- example in chrome download pdf with server can receive my data that send chorme
+- thread are shared process memory
+- thread are light weight
+- process are heavy weight
+
+## Greating A thread
+- by extending thread class
+- by implementing runable interface
+
+## Thread Creating 
+
+### By extends Thread
+
+```java
+public class thread_class {
+    public static void main(String[] args) {
+
+        mythread1 one=new mythread1();
+        mythread2 two=new mythread2();
+        one.start();
+        two.start();
+
+    }
+}
+
+class mythread1 extends Thread{
+    public void run(){
+        while (true){
+            System.out.println("Thread one is running");
+            System.out.println("I am happy");
+        }
+    }
+}
+
+class mythread2 extends Thread{
+    public void main (){
+        while (true){
+            System.out.println("Thread 2 is running ");
+            System.out.println("I am san");
+        }
+    }
+}
+```
+
+### Implementing runable interface
+
+```
+
+class mythread1 implements Runnable{
+    public void run(){
+        System.out.println("I am 1 thread");
+    }
+}
+
+class mythread2 implements Runnable{
+    public void run(){
+        System.out.println("i am thread 2");
+    }
+}
+
+
+public class thread_class {
+    public static void main(String[] args) {
+
+        mythread2 bullet1=new mythread2();
+        Thread gun1=new Thread(bullet1);
+        mythread1 bullet2=new mythread1();
+        Thread gun2=new Thread(bullet2);
+
+        gun1.start();
+        gun2.start();
+
+    }
+}
+
+```
+
+## Constructor from thread class
