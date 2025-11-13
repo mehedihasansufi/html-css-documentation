@@ -4,10 +4,13 @@
 
 - Staitc is a keyword in the front of a function that will be cll from main method do not declare any obj
 
+<br><br><br>
+
 ## Variable Convention
 
 - class **(pascal**) -- first charracter capital also like (FirstFunction)
 - function (**pascal**) -- first character small like (firstFunction)
+<br><br>
 
 ## For input
 
@@ -26,6 +29,7 @@
 //        full of a Sentences
         input.nextLine();
 ```
+<br><br>
 
 ## String 
 ```java
@@ -71,6 +75,7 @@ public class method {
     }
 }
 ```
+<br><br><br>
 
 ## Variable argument (VarArgs)
 
@@ -98,7 +103,7 @@ public class method {
 ```
 
 ## Recursion (now i skip video number 34 codeWithHarry java playlist)
-
+<br><br><br>
 
 
 # Intoducing Object Oriented Programming With java
@@ -110,7 +115,7 @@ public class method {
 ## Custom class
 
 - one java file have only one public class
-
+<br><br><br><br>
 
 
 
